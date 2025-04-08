@@ -11,7 +11,7 @@ def decode_cptr_and_free(ptr, free=True):
     #libcoreir_c.COREFree(ptr)
     #return pstr
 
-    MAX_STR_LEN = 10000
+    MAX_STR_LEN = 1000000
     plen = 0
     while ptr[plen] != b'\0':
         plen +=1
